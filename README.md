@@ -8,7 +8,7 @@ A modern and responsive fashion photography portfolio website designed to showca
 * Font Awesome
 * JavaScript
 * Google/Custom Fonts: Open Sans & Fahkwang
-* 
+  
 ## Responsive Design
 
 The website is designed to work across:
