@@ -54,7 +54,7 @@ body {
 
 .logo-img {
   display: block;
-  width: 200px;
+  width: 130px;
   max-width: 100%;
 }
 
@@ -170,6 +170,14 @@ body {
 
 }
 
+@media screen and (min-width: 768px) {
+
+  .logo-img {
+    width: 200px;
+  }
+
+}
+
 @media screen and (min-width: 992px) {
 
   .site-header {
@@ -270,11 +278,11 @@ body {
   margin: 0;
   color: var(--secondary-color);
   text-align: center;
-  font-size: 40px;
-  line-height: 1.18;
-  letter-spacing: 1.5px;
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: 1px;
   text-transform: uppercase;
-  transform: translateY(-48px);
+  transform: translateY(-28px);
 }
 
 /*                                       Tablet (min-width: 768px) */
@@ -287,6 +295,13 @@ body {
   .hero-title {
     min-height: 190px;
     padding: 0 40px 30px;
+  }
+
+  .hero-title h1 {
+    font-size: 40px;
+    line-height: 1.18;
+    letter-spacing: 1.5px;
+    transform: translateY(-48px);
   }
 
 }
@@ -330,7 +345,7 @@ body {
 }
 
 .portfolio-container {
-  width: 65%;
+  width: 100%;
   margin: auto;
 }
 
@@ -657,6 +672,9 @@ body {
 }
 
 .portfolio-gallery-header {
+  flex-direction: column;
+  align-items: flex-start !important;
+  gap: 14px;
   margin-bottom: 60px;
 }
 
@@ -712,6 +730,8 @@ body {
   }
 
   .portfolio-gallery-header {
+    flex-direction: row;
+    align-items: center !important;
     margin-bottom: 70px;
   }
 
@@ -865,7 +885,7 @@ body {
 
 
 .identi-content-column {
-  padding: 0 60px;
+  padding: 0 20px;
 }
 
 .identi-text {
@@ -880,7 +900,7 @@ body {
 
 .identi-client {
   gap: 0;
-  margin-top: 105px;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -1068,7 +1088,7 @@ body {
 }
 
 .footer-logo {
-  width: 200px;
+  width: 130px;
 }
 
 .footer-social {
@@ -1103,6 +1123,10 @@ body {
 
   .footer-section {
     padding: 75px 30px 85px;
+  }
+
+  .footer-logo {
+    width: 200px;
   }
 
 }
